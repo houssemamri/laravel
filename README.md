@@ -1,3 +1,3 @@
 #Laravel 10
 
-Laravel with GitHub Actions 
+Laravel workflows with GitHub Actions.
