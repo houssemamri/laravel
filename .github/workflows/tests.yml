@@ -45,3 +45,7 @@ jobs:
 
       - name: Execute tests
         run: vendor/bin/phpunit
+
+      - name: Laravel Pint
+        uses: aglipanci/laravel-pint-action@2.4
+            
