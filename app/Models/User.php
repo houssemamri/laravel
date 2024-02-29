@@ -25,7 +25,7 @@ class User extends Authenticatable
 
     public function tester() {
         grtinm()
-              }
+            }
 
     /**
      * The attributes that should be hidden for serialization.
