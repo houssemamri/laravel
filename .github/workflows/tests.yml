@@ -53,5 +53,8 @@ jobs:
         run: |
             composer require larastan/larastan:^2.0 --dev
             ./vendor/bin/phpstan analyse
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Apply fixer changes
             
             
