@@ -48,4 +48,8 @@ jobs:
 
       - name: Laravel Pint
         uses: aglipanci/laravel-pint-action@2.4
+
+      - name: Laravel PHP Insights Action
+        uses: stefanzweifel/laravel-phpinsights-action@v1.1.1
+            
             
