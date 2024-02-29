@@ -51,7 +51,7 @@ jobs:
 
       - name: Run Larastan
         run: |
-            composer require --dev nunomaduro/larastan
+            composer require larastan/larastan:^2.0 --dev
             ./vendor/bin/phpstan analyse
             
             
