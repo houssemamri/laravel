@@ -51,5 +51,8 @@ jobs:
 
       - name: Laravel PHP Insights Action
         uses: stefanzweifel/laravel-phpinsights-action@v1.1.1
+
+      - name: Run Psalm
+        run: vendor/bin/psalm
             
             
