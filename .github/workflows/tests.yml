@@ -49,11 +49,9 @@ jobs:
       - name: Laravel Pint
         uses: aglipanci/laravel-pint-action@2.4
 
-      - name: Run Psalm
+      - name: Run Larastan
         run: |
-            composer require --dev psalm/plugin-laravel
-            ./vendor/bin/psalm --init
-            ./vendor/bin/psalm-plugin enable psalm/plugin-laravel
-            ./vendor/bin/psalm
+            composer require --dev nunomaduro/larastan
+            php artisan code:analyse
             
             
